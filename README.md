@@ -1,6 +1,7 @@
 # NRB Flare Connection System — Interactive 3D Simulator
 
-**Live page: https://vynxhq.github.io/jic-connection/**
+**Machine 1 · Flare Connection System: https://vynxhq.github.io/jic-connection/**
+**Machine 2 · MP/HP Cone & Thread System: https://vynxhq.github.io/jic-connection/mp-hp-connection.html**
 
 The NRB flare connection system as a live, parametric 3D simulator — driven end-to-end by the **NRB Product Universe (Sep26)** workbook: 280 configurations across 11 product families, parsed verbatim into the machine.
 
@@ -10,10 +11,9 @@ One self-contained HTML file, no server, no internet required. The machine auto-
 
 | Machine | Families | Configurations | Status |
 |---|---|---|---|
-| **1 · Flare Connection System** (this page) | JIC Nut, JIC Insert, Ferrule (Collar), Steel Tube End, Male Fittings, 45° Bend, 90° Bend | **82** | **LIVE** |
-| 2 · MP/HP Adaptor | Adaptor (MP/HP × MPM/HPM/FNPT end pairs, F/L dims) | 90 | Next — awaiting reference drawings for the cone ends |
-| 3 · MP/HP Connectors + Nipple | Male Connector, Female Connector, Pipe Nipple | 108 | Next — same |
-| | | **280 / 280** | |
+| **1 · Flare Connection System** | JIC Nut, JIC Insert, Ferrule (Collar), Steel Tube End, Male Fittings, 45° Bend, 90° Bend | **82** | **LIVE** |
+| **2 · MP/HP Cone & Thread System** | Adaptor, Male Connector, Female Connector, Pipe Nipple — the coned & threaded world from NRB's own catalogue (gland nut + collar + 60° cone seat, L.H. threads, MP to 20K / HP to 60K) | **198** | **LIVE** |
+| | | **280 / 280 — COMPLETE** | |
 
 Machine 1 is fully parametric: pick a **topology** (straight · 45° · 90° · tube end · male NPT · male BSPP), a **size row** (all 17 dash/thread combinations from the workbook — DASH-02 to DASH-32, UNF and BSPP, 6K/20K classes) and a **material** (SS316 · carbon steel · brass). The machine rebuilds live: geometry, thread pitch and major diameter, hex, seat circle, torque spec, working and proof pressures — every gauge reads the same model that moves the parts.
 
