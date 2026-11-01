@@ -1,42 +1,38 @@
-# NRB Flare Connection System — Interactive 3D Simulator
+# NRB Product Universe — Interactive 3D Simulator
 
-**Machine 1 · Flare Connection System: https://vynxhq.github.io/jic-connection/**
-**Machine 2 · MP/HP Cone & Thread System: https://vynxhq.github.io/jic-connection/mp-hp-connection.html**
+**Live page: https://vynxhq.github.io/jic-connection/**
 
-The NRB flare connection system as a live, parametric 3D simulator — driven end-to-end by the **NRB Product Universe (Sep26)** workbook: 280 configurations across 11 product families, parsed verbatim into the machine.
+The approved NRB Product Universe (Sep26) — **280 configurations across 11 product families** — as one interactive, parametric 3D build. One self-contained HTML file, no server, no internet required. The machine auto-tours itself when left alone; click anything to take over.
 
-One self-contained HTML file, no server, no internet required. The machine auto-tours itself when left alone; click anything to take over.
+## One build, two worlds
 
-## The fleet — covering the full Product Universe
+A toggle top-left switches between the two connection systems that together cover the entire universe:
 
-| Machine | Families | Configurations | Status |
-|---|---|---|---|
-| **1 · Flare Connection System** | JIC Nut, JIC Insert, Ferrule (Collar), Steel Tube End, Male Fittings, 45° Bend, 90° Bend | **82** | **LIVE** |
-| **2 · MP/HP Cone & Thread System** | Adaptor, Male Connector, Female Connector, Pipe Nipple — the coned & threaded world from NRB's own catalogue (gland nut + collar + 60° cone seat, L.H. threads, MP to 20K / HP to 60K) | **198** | **LIVE** |
-| | | **280 / 280 — COMPLETE** | |
+| World | Families | Configurations |
+|---|---|---|
+| **JIC · Flare Connection System** | JIC Nut, JIC Insert, Ferrule (Collar), Steel Tube End, Male Fittings, 45° Bend, 90° Bend | **82** |
+| **MP · HP · Cone & Thread System** | Adaptor, Male Connector, Female Connector, Pipe Nipple — the coned & threaded world (gland nut + collar + 60° cone seat, L.H. threads, MP to 20K / HP to 60K) | **198** |
+| | | **280 / 280** |
 
-Machine 1 is fully parametric: pick a **topology** (straight · 45° · 90° · tube end · male NPT · male BSPP), a **size row** (all 17 dash/thread combinations from the workbook — DASH-02 to DASH-32, UNF and BSPP, 6K/20K classes) and a **material** (SS316 · carbon steel · brass). The machine rebuilds live: geometry, thread pitch and major diameter, hex, seat circle, torque spec, working and proof pressures — every gauge reads the same model that moves the parts.
+Every configuration is a picker state in the **CONFIGURE** panel — topology or family, size row (DASH-02 to DASH-32, UNF/BSPP/NPT, 6K–20K classes) and material — never a separate build. The machine rebuilds live: geometry, thread pitch and major diameter, hex, seat circle, torque spec, working and proof pressures.
 
 ## What's inside
 
-- **The machine** — JIC insert (37° flare nose, real UNF/BSPP/NPT thread geometry), female JIC nut (37° counterseat landing on the computed seat circle), crimped ferrule (smooth-bore 6K / grooved 20K), hose stub or steel tube or port boss, fluid column with a fill that follows the bend
-- **Four phases** — Flare · Thread · Seat · Prove, scrubbed from the strip or the drag bar
-- **Real numbers, one source** — thread pitch from the thread string (e.g. DASH-08 = 3/4"-16 UNF, 1.59 mm pitch, 52 N·m), travel = turns × pitch, working 6,000 psi / proof 12,000 psi (6K class) or 20,000 / 30,000 (20K class)
+- **The make-up story, four phases** — Flare · Thread · Seat · Prove, scrubbed from the strip or the drag bar; every gauge, chart and callout reads the same model that moves the parts
 - **Cutaways** — x-ray glass, longitudinal section with adjustable depth, solid
-- **Views** — Hero, Flare, Thread, Seat, Bore (down-axis), Over — keys 1–6
-- **UNIVERSE overlay** — the coverage ledger: all 11 families, their configuration counts, and which machine covers them
+- **Views** — Hero, Flare/Gland, Thread, Seat, Bore (down-axis), Over — keys 1–6; `W` toggles worlds
+- **UNIVERSE overlay** — the coverage ledger: all 11 families, their configuration counts, and which world covers them
+- **Exploded walk-round** in the auto tour
 
-## Specs shown (from the workbook / SAE J514 practice)
+## Design language
 
-| | |
-|---|---|
-| Threads | Per configuration row — 7/16-20 UNF … 2"-11 BSPP, NPT/BSPP male pipe |
-| Flare | 37° included (SAE J514) |
-| Torque | 7–190 N·m by thread (nominal, lubricated) |
-| Working pressure | 6,000 psi (6K) · 20,000 psi (20K) |
-| Proof pressure | 12,000 psi · 30,000 psi |
-| Materials | SS303/304/316 · carbon steel · brass |
+Styled in the approved NRB design system: daylight panels on Waterline hairlines floating over the dawn-sky studio ramp (the warm low-sun bounce is what makes machined stainless read as metal), Montserrat headings, Deep Channel as the only action blue, Harbor Depth data accents, tabular numerals, film grain at 4.5%.
+
+## Data provenance
+
+- **Configurations**: NRB Product Universe (Sep26) — 280 rows, parsed verbatim; the single source of scope
+- **Engineering constants**: thread geometry parsed from the workbook's own thread strings; gland A/F and L.H. thread tables from NRB's published catalogue practice; flare 37° per SAE J514; cone 60° per coned & threaded practice; torque and proof values nominal — pending NRB engineering sign-off
 
 ## Credits
 
-Built with the open-source **[teardown](https://github.com/elvarofficial/teardown)** skill (MIT) — the runtime kit, review loop and build pipeline come from there. Product data from the NRB Product Universe (Sep26) and SAE J514 practice. Prototype for internal review.
+Built with the open-source **[teardown](https://github.com/elvarofficial/teardown)** skill (MIT) — the runtime kit, review loop and build pipeline come from there. Prototype for internal review.
