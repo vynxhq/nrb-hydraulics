@@ -1,6 +1,6 @@
 # NRB Product Universe — Interactive 3D Simulator
 
-**Live page: https://vynxhq.github.io/jic-connection/**
+**Live page: https://vynxhq.github.io/nrb-hydraulics/**
 
 The approved NRB Product Universe (Sep26) — **280 configurations across 11 product families** — as one interactive, parametric 3D build. One self-contained HTML file, no server, no internet required. The machine auto-tours itself when left alone; click anything to take over.
 
